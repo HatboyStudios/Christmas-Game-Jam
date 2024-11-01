@@ -47,6 +47,12 @@ after committing, you will need to push your code to the global repository, so t
 git push
 ```
 
+### Pushing a new branch
+When creating a new branch on your local repo, you'll want to run a slightly different command to push it
+```
+git push --set-upstream origin [Branch Name]
+```
+
 ## Pulling Code
 for when you need to pull code from the global repo to your local repo. Good practice to pull code every time before you start working to check for any updates on a branch.
 ```
