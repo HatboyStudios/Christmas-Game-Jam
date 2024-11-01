@@ -32,6 +32,7 @@ When developing within a group, or large scale project; it's good to create bran
 ```git checkout -b [Branch Name]```
 
 ## Switching Branches
+Switches user to a preexisting branch from your local repository, or pulls one down from the global repo
 ```git checkout [Branch Name]```
 
 ## Commit Code
@@ -45,6 +46,12 @@ git commit -a -m "[Commit Message]"
 after committing, you will need to push your code to the global repository, so the other developers can pull your code down to their own local repository
 ```
 git push
+```
+
+### Pushing a new branch
+When creating a new branch on your local repo, you'll want to run a slightly different command to push it
+```
+git push --set-upstream origin [Branch Name]
 ```
 
 ## Pulling Code
