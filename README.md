@@ -32,6 +32,7 @@ When developing within a group, or large scale project; it's good to create bran
 ```git checkout -b [Branch Name]```
 
 ## Switching Branches
+Switches user to a preexisting branch from your local repository, or pulls one down from the global repo
 ```git checkout [Branch Name]```
 
 ## Commit Code
