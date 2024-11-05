@@ -59,3 +59,24 @@ for when you need to pull code from the global repo to your local repo. Good pra
 ```
 git pull
 ```
+
+
+# Branch Hierarchy
+
+## Main
+Main Branch: where the code we want to show will go, code here should be mostly finished.
+
+### Releases:
+Release Branch: Where all our indevelopment, next version code is developed on
+#### Stories:
+Story Branch: Larger scale designs that are broken down into smaller tasks
+##### Tasks:
+Task Branch: those smaller branches to designed specific things for the story
+- Features Branch: testing the code before putting it in a task branch
+- Changes Branch: fixing code that needs to be fixed on a Task branch level 
+##### Tweaks:
+Tweak Branch: fixing code that needs to be fixed on a Story Branch Level
+#### Bugfixes:
+Bugfix Branch: fixing code that needs to be fixed on a Release Level
+### Patches:
+Patch Branch: fixing code errors and bugs that are discovered after a release
