@@ -61,22 +61,15 @@ git pull
 ```
 
 
-# Branch Hierarchy
+# Git flow
 
-## Main
-Main Branch: where the code we want to show will go, code here should be mostly finished.
-
-### Releases:
-Release Branch: Where all our indevelopment, next version code is developed on
-#### Stories:
-Story Branch: Larger scale designs that are broken down into smaller tasks
-##### Tasks:
-Task Branch: those smaller branches to designed specific things for the story
-- Features Branch: testing the code before putting it in a task branch
-- Changes Branch: fixing code that needs to be fixed on a Task branch level 
-##### Tweaks:
-Tweak Branch: fixing code that needs to be fixed on a Story Branch Level
-#### Bugfixes:
-Bugfix Branch: fixing code that needs to be fixed on a Release Level
-### Patches:
-Patch Branch: fixing code errors and bugs that are discovered after a release
+## Main Branch
+Official code thats finished and in production
+## Dev Branch
+Code that's in development and not ready for production
+## Feature Branch
+an item to task thats made to be later brought into dev
+## Release Branch
+Code that's almost ready to be moved into main
+## Hotfix Branch
+fixes bugs that were found after code was pulled into main
