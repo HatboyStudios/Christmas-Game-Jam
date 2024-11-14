@@ -73,3 +73,7 @@ an item to task thats made to be later brought into dev
 Code that's almost ready to be moved into main
 ## Hotfix Branch
 fixes bugs that were found after code was pulled into main
+
+### Example:
+![git-flow-4](https://github.com/user-attachments/assets/036d74ff-8f0b-4a6d-b26f-1942cd2b596b)
+
