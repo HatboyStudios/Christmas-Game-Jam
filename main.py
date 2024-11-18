@@ -1,9 +1,18 @@
-import folder_A.test as testA
-import folder_B.test as testB
-import folder_C.test as testC
+# test
+import lib.core as Core
 
-print("Hello World")
+Core.addVal("test")
 
-testA.test()
-testB.chaos()
-testC.combine()
+Core.viewVal("test")
+
+Core.allVals()
+
+Core.addVal("test2")
+
+Core.viewVal("test2")
+
+Core.allVals()
+
+Core.changeVal("test", 2)
+
+Core.allVals()
